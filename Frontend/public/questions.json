@@ -1,0 +1,102 @@
+{
+  "questionnaire": [
+    {
+      "topic": "UserProfile",
+      "questions": [
+        {
+          "question": "What is your full name?",
+          "attribute": "Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "question": "What is your email address?",
+          "attribute": "Email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "question": "What is your phone number?",
+          "attribute": "Phone",
+          "type": "text",
+          "required": true
+        },
+        {
+          "question": "What is your address?",
+          "attribute": "Address",
+          "type": "text",
+          "required": true
+        },
+        {
+          "question": "What is your date of birth?",
+          "attribute": "DOB",
+          "type": "date",
+          "required": true
+        }
+      ]
+    },
+    {
+      "topic": "Account",
+      "questions": [
+        {
+          "question": "What type of account do you have?",
+          "attribute": "Account_Type",
+          "type": "text",
+          "required": true
+        },
+        {
+          "question": "What is the current balance in your account?",
+          "attribute": "Balance",
+          "type": "number",
+          "required": true
+        }
+      ]
+    },
+    {
+      "topic": "Income",
+      "questions": [
+        {
+          "question": "What is the amount of income received?",
+          "attribute": "Amount",
+          "type": "number",
+          "required": true
+        },
+        {
+          "question": "What is the source of the income?",
+          "attribute": "Source_type",
+          "type": "text",
+          "required": true
+        },
+        {
+          "question": "Please provide a description of the income source.",
+          "attribute": "Description",
+          "type": "text",
+          "required": true
+        }
+      ]
+    },
+    {
+      "topic": "savings_goal",
+      "questions": [
+        {
+          "question": "What is your savings goal target amount?",
+          "attribute": "target_amount",
+          "type": "number",
+          "required": true
+        },
+        {
+          "question": "What is the title of your savings goal?",
+          "attribute": "title",
+          "type": "text",
+          "required": true
+        },
+        {
+          "question": "By when do you aim to achieve your savings goal?",
+          "attribute": "deadline",
+          "type": "date",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
